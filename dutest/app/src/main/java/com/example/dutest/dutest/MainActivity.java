@@ -6,28 +6,8 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.app.Application;
-
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.ActivityInfo;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
-import com.squareup.leakcanary.LeakCanary;
-import com.squareup.leakcanary.RefWatcher;
-
-import android.content.Context;
-import java.util.*;
-import java.io.*;
-import java.net.*;
 
 public class MainActivity extends AppCompatActivity {
     EditText name;   //用户名
@@ -52,16 +32,6 @@ public class MainActivity extends AppCompatActivity {
         pass = (EditText) findViewById(R.id.pass);  //获取密码
     }
 
-
-//    public void givenConnection_whenUnclosed_thenOutOfMemory()
-//            throws IOException, URISyntaxException {
-//
-//        URL url = new URL("ftp://speedtest.tele2.net");
-//        URLConnection urlc = url.openConnection();
-//        InputStream is = urlc.getInputStream();
-//        String str = "";
-//
-//    }
 
 
     public void Check(View view) {
